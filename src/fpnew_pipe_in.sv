@@ -32,8 +32,6 @@
 
 // Author: Stefan Mach <smach@iis.ee.ethz.ch>
 
-`include "common_cells/registers.svh"
-
 module fpnew_pipe_in #(
   parameter int unsigned Width         = 32,
   parameter int unsigned NumPipeRegs   = 0,

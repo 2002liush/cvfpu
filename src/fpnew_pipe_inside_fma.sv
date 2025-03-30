@@ -32,8 +32,6 @@
 
 // Author: Stefan Mach <smach@iis.ee.ethz.ch>
 
-`include "common_cells/registers.svh"
-
 module fpnew_pipe_inside_fma #(
   parameter int unsigned ExpWidth    = 10,
   parameter int unsigned PrecBits    = 24,
