@@ -32,7 +32,7 @@
 
 // Author: Stefan Mach <smach@iis.ee.ethz.ch>
 
-
+`include "registers.svh"
 module fpnew_pipe_inside_cast #(
   parameter int unsigned IntExpWidth = 12,
   parameter int unsigned IntManWidth = 64,

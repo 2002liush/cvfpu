@@ -31,7 +31,7 @@
 // is enabled during synthesis. Make sure to optimize clock gates through hierarchies.
 
 // Author: Stefan Mach <smach@iis.ee.ethz.ch>
-
+`include "registers.svh"
 module fpnew_pipe_in #(
   parameter int unsigned Width         = 32,
   parameter int unsigned NumPipeRegs   = 0,

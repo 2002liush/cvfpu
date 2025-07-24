@@ -29,7 +29,7 @@
 // pipeline is not full.
 // Enable signals on the registers will lead to clock-gated pipeline stages when this optimization
 // is enabled during synthesis. Make sure to optimize clock gates through hierarchies.
-
+`include "registers.svh"
 module fpnew_pipe_out #(
   parameter int unsigned Width         = 32,
   parameter int unsigned NumPipeRegs   = 0,
